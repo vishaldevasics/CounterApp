@@ -60,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
         return --count;
     }
     public int ResetCount(){
+        count = 0;
         return 0;
     }
 
